@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario Contacto</title>
+    <title>Formulario de contacto</title>
   </head>
   <body>
-    <p>Por favor llena este formulario para ponerte en contacto con nosotros</p>
+    <p>
+      Por favor llenar este formulario para ponerte en contacto con nosotros
+    </p>
     <fieldset>
       <legend>Datos de contacto</legend>
       <form action="contacto.html">
-        <label for="">Nombre</label>
-        <input type="text" placeholder="Nombre" />
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
         <label for="apellido">Apellido</label>
-        <input type="text" placeholder="Apellido" />
+        <input type="text" id="apellido" />
         <br />
+
         <label for="correo">Correo</label>
-        <input type="email" placeholder="Correo" />
-        <br />
+        <input type="email" id="correo" />
+        <br>
+
         <label for="comentario">Comentario</label>
         <textarea name="" id="comentario"></textarea>
         <button type="submit">Aceptar</button>
