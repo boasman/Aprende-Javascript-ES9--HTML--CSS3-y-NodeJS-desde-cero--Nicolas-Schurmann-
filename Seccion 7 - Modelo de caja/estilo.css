@@ -1,0 +1,21 @@
+.caja{
+    margin: 8px;
+    background-color: #aaf;
+    padding: 20px;
+    border-style: inset;
+    border-width: 8px;
+    border-color: chartreuse;
+    border-left: 6px solid #fff;
+    border-radius: 4px;
+    height: 100px;
+    width: 100px;
+    color: #757;
+
+}
+
+body{
+    background-color: blue;
+}
+p{
+    background-color: aqua;
+}
