@@ -1,0 +1,24 @@
+.fondo{
+
+
+    /* background-color: rgba(0,0,0,1); */
+    /* background-color: hsl(120,60%,60%);
+    opacity: 0.4; */
+    /* height: 100% ; */
+    /* background: green url('https://placecats.com/neo/300/200') no-repeat left top fixed; */
+    /* background-color: green;
+    background-image: url('https://placecats.com/neo/300/200');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    /* background-size: cover; */
+
+    /* background: linear-gradient(to bottom right, red,blue); */
+    background: linear-gradient(yellow,blue,red);
+}
+
+body{
+    background-color: #eee;
+}
